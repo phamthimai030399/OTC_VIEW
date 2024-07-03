@@ -191,12 +191,10 @@ main {
 
 /* HEADER  */
 header {
-  background: rgba(0, 0, 0, 0.15);
+  background: rgba(0, 0, 0, 0.4);
 }
 header h2.title {
   margin-left: 20px;
-}
-h2.title {
   font-size: 30px;
   font-weight: 700;
 }
@@ -271,7 +269,7 @@ header .header-nav .nav-list .nav-item .item-svg svg {
   header .header-container .hearder-logo {
     width: 60px;
   }
-  h2.title {
+  header h2.title {
     font-size: 25px;
   }
   header .header-action {
@@ -296,6 +294,9 @@ header .header-nav .nav-list .nav-item .item-svg svg {
     width: 12px;
     height: 12px;
   }
+  header h2.title {
+    margin-left: 10px;
+  }
 }
 @media (max-width: 480px) {
     header .nav-container {
@@ -304,7 +305,7 @@ header .header-nav .nav-list .nav-item .item-svg svg {
   header .header-container .hearder-logo {
     width: 60px;
   }
-  h2.title {
+  header h2.title {
     font-size: 20px;
   }
   header .header-action {
@@ -318,7 +319,7 @@ header .header-nav .nav-list .nav-item .item-svg svg {
   header .header-container .hearder-logo {
     width: 75px;
   }
-  h2.title {
+  header h2.title {
     font-size: 18px;
   }
   header .header-action a {
