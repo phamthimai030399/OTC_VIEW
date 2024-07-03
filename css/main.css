@@ -188,6 +188,72 @@ main {
   width: 100%;
   height: 100%;
 }
+.element-decor {
+  position: absolute;
+  z-index: 2;
+  width: auto;
+}
+.box {
+  margin-top: 100px;
+}
+.box .box-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 800;
+}
+.box .marquee .box-title {
+  color: #4dab2b;
+}
+.box h1.title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 75px;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 1) 20%,
+    rgba(90, 90, 90, 1) 100%
+  );
+  background-clip: text;
+  color: transparent;
+}
+.box .banner-action {
+  background: linear-gradient(#4dab2b, #4de717);
+  border-radius: 5px;
+  padding: 5px 30px;
+  width: fit-content;
+  margin-top: 15px;
+  transition: all 0.5s ease-in-out;
+}
+.box .banner-action:hover {
+  background: linear-gradient(#4de717, #4dab2b);
+  transition: all 0.5s ease-in-out;
+}
+.box .banner-action a {
+  color: #000;
+  font-weight: 600;
+}
+@media (max-width: 991.99px) {
+  .box {
+    margin-top: 70px;
+  }
+  .trading-banner.box {
+    margin-top: 50px;
+  }
+  .box .box-title {
+    font-size: 25px;
+  }
+  .box h1.title {
+    font-size: 28px;
+    line-height: 55px;
+  }
+  .box .banner-action {
+    padding: 2px 20px;
+  }
+  .box .banner-action a {
+    font-size: 14px;
+  }
+}
+
 
 /* HEADER  */
 header {
