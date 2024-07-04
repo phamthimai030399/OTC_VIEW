@@ -331,6 +331,36 @@ header .header-nav .nav-list .nav-item .item-svg svg {
   width: 15px;
   height: 15px;
 }
+header .header-language {
+  position: relative;
+  gap: 10px;
+}
+header .header-language .custom-option img {
+  width: 20px;
+  height: 20px;
+}
+header .header-language .custom-option img {
+  width: 20px;
+  height: 20px;
+}
+header .form-select {
+ background: none;
+  border: none;
+  width: 40px;
+  color: #fff;  
+}
+header .form-select option {
+ color: #fff;
+ background: rgba(0, 0, 0, 0.4);;
+ text-align: center;
+}
+.form-select:focus-visible,
+.form-select:focus {
+  outline: none;
+  border-color: none;
+  box-shadow: none;
+
+}
 @media (max-width: 991.99px) {
   header .header-container .hearder-logo {
     width: 60px;

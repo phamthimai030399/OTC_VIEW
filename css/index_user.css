@@ -55,11 +55,10 @@
 .commission .commission-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 .commission .commission-container .commission-right,
 .commission .commission-container .commission-left {
-    width: 49%;
+    width: 49.5%;
 }
 .commission .commission-container .commission-left {
    display: flex;
@@ -78,8 +77,57 @@
     border: 1px solid rgba(10, 138, 19, 0.54);
     transition: all 0.5s ease-in-out;
 }
+.commission .commission-container .commission-left-item .tab-list {
+    position: absolute;
+    right: 3%;
+    top: 12%;
+}
+.commission .commission-container .commission-left-item .tab-list .nav-tabs {
+   border-bottom: none;
+}
+.commission .commission-container .commission-left-item .tab-list .nav-tabs .nav-link {
+   font-size: 14px;
+   text-transform: math-auto;
+   padding: 4px 7px;
+   border-radius: 13px;
+   background: #fff;
+   color: #000;
+   margin-left: 10px;
+   border: none;
+}
+.commission .commission-container .commission-left-item .tab-list .nav-tabs .nav-link.active {
+   background: rgba(159, 246, 1, 1);
+   color: #fff;
+}
+.commission .commission-container .commission-left-item .tab-content .link-content {
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+}
+.commission .commission-container .commission-left-item .tab-content .link-detail a {
+  color: #019EF6;
+}
+.commission .commission-container .commission-left-item .tab-content .link-detail a:hover {
+  text-decoration: underline;
+}
+.commission .commission-container .commission-left-item .tab-content p {
+  text-align: center;
+}
+.commission .commission-container .commission-left-item .tab-content p a {
+  color: #019EF6;
+}
+.commission .commission-container .commission-left-item .item-content {
+  text-align: center;
+  padding: 0 10%;
+}
+.commission .commission-container .commission-left-item .item-content a {
+  color: #019EF6;
+}
+.commission .commission-container .commission-left-item .item-content a:hover {
+  text-decoration: underline;
+}
 .commission .commission-container .item-title .title {
-   font-size: 20px;
+   font-size: 18px;
     font-weight: 500;
     line-height: 28px;
 }
@@ -90,9 +138,40 @@
 }
 .commission .commission-container .item-content .surplus {
    font-weight: 500;
-   font-size: 18px;
+   font-size: 16px;
    text-align: center;
 }
 .commission .commission-container .item-content .total {
    text-align: center;
+   font-size: 14px;
+}
+.commission .commission-container .commission-right {
+  padding: 2% 2.5%;
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  transition: all 0.5s ease-in-out;
+}
+.commission .commission-container .commission-right .partner-status {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+.commission .commission-container .commission-right .partner-status .status-item  {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  text-align: center;
+  align-items: center;
+}
+.commission .commission-container .commission-right .partner-status .connect svg {
+  max-width: 50px;
+}
+.commission .commission-container .commission-right .partner-status .partner-level {
+  font-size: 14px;
+  color: #019EF6;
+}
+.commission .commission-container .commission-right .partner-status .level-status {
+  font-size: 14px;
 }
