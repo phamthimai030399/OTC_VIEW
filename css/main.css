@@ -254,6 +254,11 @@ main {
   }
 }
 
+/* CONTAINER  */
+.container {
+  max-width: 1900px;
+  padding: 0 5%;
+}
 
 /* HEADER  */
 header {
